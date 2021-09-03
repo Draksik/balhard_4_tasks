@@ -26,7 +26,8 @@ def clear_list(collection: list) -> list:
     :param collection: список для очищения
     :return: очищенный список
     """
-    # TODO вставить код сюда
+    list = user_data("phones")
+    list.clear()
     return collection
 
 

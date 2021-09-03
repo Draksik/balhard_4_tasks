@@ -10,8 +10,8 @@ client_list = [123, 321, 213]
 
 
 def del_last(collection: list) -> int:
-    # TODO вставить код сюда
-    result = None
+    del client_list[-1]
+    result = client_list
     return result
 
 
