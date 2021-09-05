@@ -7,8 +7,9 @@
 
 
 def common_elements(list_1: list, list_2) -> set:
-    # TODO вставить код сюда
-    result = None
+    elements = set(list_1)
+    elements_1 = set(list_2)
+    result = elements | elements_1
     return result
 
 
